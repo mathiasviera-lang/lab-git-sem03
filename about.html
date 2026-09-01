@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Kicks - Nosotros</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f0f12;
+      color: #f0f0f5;
+    }
+    header {
+      background-color: #18181c;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #2a2a32;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #00ffcc;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    nav a {
+      color: #a0a0b0;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover, nav a.active {
+      color: #00ffcc;
+    }
+    .container {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+    h1 {
+      color: #00ffcc;
+      border-bottom: 1px solid #2a2a32;
+      padding-bottom: 0.5rem;
+    }
+    p {
+      line-height: 1.6;
+      color: #d0d0e0;
+    }
+    .grid {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .box {
+      background-color: #18181c;
+      padding: 1.5rem;
+      border-radius: 6px;
+      border-left: 4px solid #00ffcc;
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Urban Kicks</div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="about.html" class="active">Nosotros</a>
+      <a href="contact.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Sobre Urban Kicks</h1>
+    <p>Nacimos en el corazón de la ciudad con un objetivo claro: ofrecer calzado urbano que combine autenticidad, calidad y las tendencias más recientes de la cultura street.</p>
+    <p>Trabajamos directamente con diseñadores independientes y marcas globales para seleccionar piezas únicas que destaquen en la calle.</p>
+
+    <div class="grid">
+      <div class="box">
+        <h3>Misión</h3>
+        <p>Llevar el estilo urbano a jóvenes que buscan expresar su identidad a través de lo que calzan.</p>
+      </div>
+      <div class="box">
+        <h3>Visión</h3>
+        <p>Convertirnos en la tienda de referencia para la cultura sneaker y el streetwear de la región.</p>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>

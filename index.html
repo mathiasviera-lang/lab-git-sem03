@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Kicks - Inicio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f0f12;
+      color: #f0f0f5;
+    }
+    header {
+      background-color: #18181c;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #2a2a32;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #00ffcc;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    nav a {
+      color: #a0a0b0;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover, nav a.active {
+      color: #00ffcc;
+    }
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: linear-gradient(180deg, #18181c 0%, #0f0f12 100%);
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+    .hero p {
+      color: #a0a0b0;
+      max-width: 600px;
+      margin: 0 auto 2rem;
+    }
+    .catalog {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+      flex-wrap: wrap;
+    }
+    .card {
+      background-color: #18181c;
+      border: 1px solid #2a2a32;
+      border-radius: 8px;
+      padding: 1.5rem;
+      width: 280px;
+      text-align: center;
+    }
+    .card h3 {
+      color: #00ffcc;
+      margin-top: 0;
+    }
+    .card p {
+      color: #a0a0b0;
+      font-size: 0.9rem;
+    }
+    .price {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: #ffffff;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Urban Kicks</div>
+    <nav>
+      <a href="index.html" class="active">Inicio</a>
+      <a href="about.html">Nosotros</a>
+      <a href="contact.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>SNEAKERS URBANOS EXCLUSIVOS</h1>
+      <p>Estilo, cultura de calle y las mejores siluetas para tu día a día. Descubre la colección de esta temporada.</p>
+    </section>
+
+    <section class="catalog">
+      <div class="card">
+        <h3>Night Runner X</h3>
+        <p>Diseño aerodinámico con detalles reflectantes para la noche.</p>
+        <div class="price">$140.00</div>
+      </div>
+      <div class="card">
+        <h3>Street Cyber High</h3>
+        <p>Silueta alta con materiales sintéticos de alta durabilidad.</p>
+        <div class="price">$165.00</div>
+      </div>
+      <div class="card">
+        <h3>Dark Phantom</h3>
+        <p>Edición limitada totalmente negra con amortiguación premium.</p>
+        <div class="price">$180.00</div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
